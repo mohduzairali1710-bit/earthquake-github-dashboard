@@ -8,7 +8,7 @@ results in an interactive Plotly dashboard.
 
 View the hosted dashboard at
 https://mohduzairali1710-bit.github.io/earthquake-github-dashboard/.
-GitHub Pages publishes the latest committed `dashboard.html` after each push
+GitHub Pages publishes `index.html` after each push
 to the `main` branch.
 
 ## What it does
@@ -18,7 +18,7 @@ to the `main` branch.
 - Cleans the API responses into Pandas DataFrames and reports incomplete entries.
 - Builds a world map with magnitude-scaled, magnitude-colored earthquake markers.
 - Builds a horizontal repository star chart with descriptions and clickable links.
-- Saves both charts together in `dashboard.html`.
+- Saves both charts together in `index.html`.
 
 ## Requirements
 
@@ -46,5 +46,5 @@ python -m pip install -r requirements.txt
 python data_pipeline.py
 ```
 
-Open `dashboard.html` in a web browser to explore the charts. The GitHub API
+Open `index.html` in a web browser to explore the charts. The GitHub API
 is used without authentication, so its public rate limit applies.

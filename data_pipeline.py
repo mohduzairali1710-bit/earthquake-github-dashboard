@@ -19,7 +19,7 @@ logging.basicConfig(
 USGS_URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson"
 GITHUB_URL = "https://api.github.com/search/repositories"
 REQUEST_TIMEOUT_SECONDS = 20
-OUTPUT_FILE = Path("dashboard.html")
+OUTPUT_FILE = Path("index.html")
 
 EARTHQUAKE_COLUMNS = [
     "place",

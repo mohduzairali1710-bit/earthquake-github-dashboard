@@ -24,9 +24,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Prepare dashboard homepage
-        run: cp dashboard.html index.html
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
