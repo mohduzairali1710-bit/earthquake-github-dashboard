@@ -4,6 +4,13 @@ A beginner-friendly Python script that fetches recent significant earthquakes
 from the USGS and popular Python repositories from GitHub, then combines the
 results in an interactive Plotly dashboard.
 
+## Live dashboard
+
+View the hosted dashboard at
+https://mohduzairali1710-bit.github.io/earthquake-github-dashboard/.
+GitHub Pages publishes the latest committed `dashboard.html` after each push
+to the `main` branch.
+
 ## What it does
 
 - Fetches M4.5+ earthquakes from the USGS GeoJSON feed for the past seven days.
